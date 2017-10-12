@@ -22,7 +22,7 @@
 
 //return'Hello,'.$name;
 
-Route::get('hello/{name?}',function($name='tttt'){
+Route::get('pratice3/{name?}',function($name='add route'){
 
-return'Hello,'.$name;
+return'pratice3,'.$name;
 });
